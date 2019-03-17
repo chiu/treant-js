@@ -35,6 +35,111 @@ node3 = {
         },
     image: "../headshots/2.jpg"
 },
+node4 = {
+    parent: node3,
+     text: { 
+        attribute: "label=<airborne = 0.5"
+        },
+    image: "../headshots/2.jpg"
+},
+node5 = {
+    parent: node4,
+     text: { 
+        attribute: "label=<predator = 0.5"
+        },
+    image: "../headshots/2.jpg"
+},
+node6 = {
+    parent: node5,
+     text: { 
+        attribute: "label=<legs = 3.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node7 = {
+    parent: node6,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node8 = {
+    parent: node6,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node9 = {
+    parent: node5,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node10 = {
+    parent: node4,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node11 = {
+    parent: node3,
+     text: { 
+        attribute: "label=<aquatic = 0.5"
+        },
+    image: "../headshots/2.jpg"
+},
+node12 = {
+    parent: node11,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node13 = {
+    parent: node11,
+     text: { 
+        attribute: "label=<eggs = 0.5"
+        },
+    image: "../headshots/2.jpg"
+},
+node14 = {
+    parent: node13,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node15 = {
+    parent: node13,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node16 = {
+    parent: node2,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node17 = {
+    parent: node1,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
+node18 = {
+    parent: node0,
+     text: { 
+        attribute: "label=<gini = 0.0"
+        },
+    image: "../headshots/2.jpg"
+},
 
 
 
@@ -44,8 +149,21 @@ node3 = {
         node1,
         node2,
         node3,
-
-    ];
+        node4,
+ node5,
+ node6,
+ node7,
+ node8,
+ node9,
+ node10,
+ node11,
+ node12,
+ node13,
+ node14,
+ node15,
+ node16,
+ node17,
+ node18];
 
 
 
