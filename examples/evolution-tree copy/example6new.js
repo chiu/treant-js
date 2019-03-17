@@ -6,7 +6,7 @@ var tree_structure = {
         subTeeSeparation:   70,
         nodeAlign: "BOTTOM",
         scrollbar: "fancy",
-        padding: 35,
+        padding: 100,
         node: { HTMLclass: "evolution-tree" },
         connectors: {
             type: "curve",
@@ -19,12 +19,12 @@ var tree_structure = {
     },
 
     nodeStructure: {
-        text: { name: "LIFE" },
-        HTMLclass: "the-parent",
+        text: { name: "milk = 0.5 \n gini=0.759"},
+        HTMLclass: "the-children",
         children: [
             {
-                text: { name: "true bacteria" },
-                image: "img/truebacteria.png"
+                text: { name: "milk = 0.5 \n gini=0.759"},
+                // image: "img/truebacteria.png"
             },
             {
                 pseudo: true,
